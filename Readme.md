@@ -27,11 +27,6 @@ This repository contains a simple API for managing books in a library system. It
 
 4. The FastAPI application will be accessible at `http://localhost:8000`.
 
-### Additional Notes
-
-- Ensure all Python dependencies are listed in `requirements.txt` for consistent environment setup across different deployments.
-- Follow Docker best practices for image optimization, security, and management.
-
 ## License
 
 [MIT License](LICENSE)
