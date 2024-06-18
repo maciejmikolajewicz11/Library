@@ -7,17 +7,17 @@ This repository contains a simple API for managing books in a library system. It
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/library-api.git
-   cd library-api
+   git clone https://github.com/maciejmikolajewicz11/Library
+   cd Library
    ```
 
 2. Create a `.env` file in the project root and define your environment variables:
 
    ```plaintext
-   SQLALCHEMY_DATABASE_URL=sqlite:///./app/library.db
+   SQLALCHEMY_DATABASE_URL=sqlite:///./app.db
    ```
 
-   Replace `sqlite:///./app/library.db` with your desired database URL if using a different database system.
+   Replace `sqlite:///./app/app.db` with your desired database URL if using a different database system.
 
 3. Build and run the Docker container:
 
